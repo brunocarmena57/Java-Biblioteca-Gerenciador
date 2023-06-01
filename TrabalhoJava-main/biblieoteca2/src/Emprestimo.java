@@ -8,6 +8,7 @@ private Date dataEmprestimo;
 private Date dataDevolucaoPrevista;
 
 
+
 public Emprestimo(Usuario usuario, ItemBiblioteca item, Date dataEmprestimo, Date dataDevolucaoPrevista) {
     this.usuario = usuario;
     this.item = item;
