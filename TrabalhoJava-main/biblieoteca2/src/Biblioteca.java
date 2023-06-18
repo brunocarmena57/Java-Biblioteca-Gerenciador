@@ -12,6 +12,8 @@ public void cadastrarUsuario(String nome, String telefone, String endereco, Stri
         usuarios.add(novoUsuario);
         System.out.println("Usuário " + nome + " cadastrado com sucesso.");
     }
+
+
     
     public Biblioteca() {
         itens = new ArrayList<>();
