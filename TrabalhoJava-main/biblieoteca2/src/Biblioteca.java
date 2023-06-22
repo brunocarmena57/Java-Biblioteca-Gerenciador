@@ -7,6 +7,8 @@ class Biblioteca implements Cadastro, Consulta {
     private List<Devolucao> devolucoes;
     
     
+
+
 public void cadastrarUsuario(String nome, String telefone, String endereco, String email) {
         Usuario novoUsuario = new Usuario(nome, telefone, endereco, email);
         usuarios.add(novoUsuario);
