@@ -6,6 +6,8 @@ public class Usuario {
 
 
 
+
+
     public Usuario(String nome, String telefone, String endereco, String email) {
         this.nome = nome;
         this.telefone = telefone;
